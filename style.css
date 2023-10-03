@@ -1,0 +1,200 @@
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    
+    border-radius: 5px;
+}
+
+.input-name {
+    height: 7.5vh;
+    border: 1px solid #678BBA; /* Border color */
+    border-radius: 5px; /* Border radius */
+    padding: 0 10px; /* Space between container and text */
+}
+
+
+
+.input p {
+    padding-left: 10px;
+}
+
+.sign-up-btn {
+    height: 7.5vh;
+    margin-top: 5vh;
+
+}
+
+.top-navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #678BBA;
+    color: white;
+    height: max-content; /* Set the desired height for the navbar */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Space between content */
+    padding: 0 20px; /* Add some padding to the left and right */
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 5vw;
+    
+}
+
+.top-navbar-up {
+    display: flex;
+    width: 70vw;
+    padding-bottom: 2vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the container of the iOS-style switch */
+.ios-switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Style for the actual checkbox input (hidden) */
+  .ios-switch input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Style for the slider, which represents the switch */
+  .ios-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Off background color */
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  /* Style for the slider when the switch is "on" */
+  .ios-switch input[type="checkbox"]:checked + .slider {
+    background-color: #0074d9; /* On background color */
+  }
+  
+  /* Style for the slider's round thumb */
+  .ios-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  /* Style for the slider's round thumb when the switch is "on" */
+  .ios-switch input[type="checkbox"]:checked + .slider:before {
+    -webkit-transform: translateX(26px); /* Move the thumb to the right */
+    transform: translateX(26px);
+  }
+  
+
+.search-bar {
+    min-width: 80vw;
+    min-height: 7.5vh;
+    border-radius: 50px;
+    padding-left: 20px;
+}
+
+.region-search , .keyword-search {
+    display: flex;
+    color:#678BBA;
+    background-color: aqua;
+    min-width: 12.5vw;
+    min-height: 12.5vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20vw;
+}
+
+.switch-keyword-region {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-tourism {
+    display:flex ;
+    padding-top: 30vh;
+    flex-direction: column;
+}
+
+.our-tourism h1 {
+    color: #FFC50F;
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 6vw;
+}
+
+.list-category {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.1); /* Background color with transparency */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+    border-radius: 10px; /* Rounded corners for a glass-like appearance */
+    padding: 0px;
+    min-width: 95%;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    
+}
+  
+.category {
+    min-width: 40vw;
+    min-height: 40vw !important;
+    max-width: 40vw;
+    max-height: 40vw !important;
+    background-color: #EAC2F6;
+    margin: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for a floating effect */
+}
+
+.logo-tourism {
+    width: 25vw;
+    height: auto;
+}
