@@ -1,3 +1,13 @@
+/**
+ * @author Ethan Bastian
+ * @email ethanbastian11@gmail.com
+ * @create date 2023-10-04 08:16:59
+ */
+/**
+ * @author Ethan Bastian
+ * @email ethanbastian11@gmail.com
+ * @create date 2023-10-04 08:16:59
+ */
 
 
 body {
@@ -359,4 +369,82 @@ body {
 
 .package-list .load-more-btn {
     width: 100%;
+}
+
+.body-profile {
+    background: #678BBA;
+    background-color: #678BBA;
+}
+
+.header-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invisible-h1 {
+    visibility: hidden;
+}
+
+.profile-picture {
+    width: 100%;
+    height: max-content;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.profile-picture .pict img {
+    width: 30vw;
+    height:30vw;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 20vw;
+}
+
+.profile-picture .pict {
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+.profile-picture h2 {
+    color : black;
+    padding-bottom: 1vh;
+}
+
+.profile-picture p {
+    padding-bottom: 5vh;
+}
+
+.general-settings  {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.opt-header , .opt-header h2 {
+    background-color: #EDEDED;
+    font-size: medium;
+    font-weight: medium;
+    padding: 1vh 1vh 1vh 2vh;
+    color: #888888;
+}
+
+.general-settings p {
+    font-size: medium;
+    font-weight: medium;
+    padding: 2vh 1vh 2vh 5vh;
+    color: #000000;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opt-name {
+    display: flex;
+    flex-direction: row;
 }
