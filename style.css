@@ -531,3 +531,36 @@ body {
     height: 30vw;
     margin: 0.3vh;
 }
+
+body {
+    max-width: 478px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center-align the body horizontally */
+}
+
+.element {
+    width: 478px; /* Set the width to 478px for screens wider than 478px */
+}
+
+.video-header {
+    display: flex;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #678BBA;
+    color: #ccc;
+}
+
+.video-header .invisible {
+    visibility: hidden;
+}
+
+.video-header .material-symbols-outlined {
+    color: #ffffff;
+    padding-right: 5vw;
+}
+
+.video-frame video {
+    width: 100vw;
+    height: auto;
+}
