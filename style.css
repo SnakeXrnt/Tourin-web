@@ -387,6 +387,7 @@ body {
 
 .package-list {
     padding-top: 3vh;
+    padding-bottom: 7vh ;
 }
 
 
@@ -720,7 +721,7 @@ a {
 
 .video-attribute .description {
     position: absolute;
-    bottom: 1%;
+    bottom: 7%;
     left: 1%;
     color: white;
     display: flex;
@@ -735,3 +736,10 @@ a {
     color:#fff!important;
 }
 
+.nav-bottom {
+    position: absolute;
+    bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
