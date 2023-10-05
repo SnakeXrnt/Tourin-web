@@ -1,22 +1,11 @@
-<!--
-author Ethan Bastian
-email ethanbastian11@gmail.com
-create date 2023-10-05 16:40:14
--->
-<!--
-author Ethan Bastian
-email ethanbastian11@gmail.com
-create date 2023-10-05 16:40:14
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <title>TikTok-Like Layout</title>
+    <title>Tourin web</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body class="video-body">
@@ -30,7 +19,6 @@ create date 2023-10-05 16:40:14
                 search
                 </span></p>
         </a>
-        
     </div>
     <div class="video-frame">
         <video autoplay loop muted id="background-video">
@@ -39,58 +27,69 @@ create date 2023-10-05 16:40:14
 
         <div class="video-header">
             
-            <a href="profile.html">
-                <p><span class="material-symbols-outlined">
-                    home
-                    </span></p>
-            </a>
-
-            <a href="profile.html">
-                <p><span class="material-symbols-outlined">
-                    add_circle
-                    </span></p>
-            </a>
+            <div class="video-header">
             
-            <a href="profile.html">
-                <p><span class="material-symbols-outlined">
-                    settings
-                    </span></p>
-            </a>
+                <a href="video.html">
+                    <p><span class="material-symbols-outlined">
+                        home
+                        </span></p>
+                </a>
+    
+                <a href="profile.html">
+                    <p><span class="material-symbols-outlined">
+                        add_circle
+                        </span></p>
+                </a>
+                
+                <a href="settings.html">
+                    <p><span class="material-symbols-outlined">
+                        settings
+                        </span></p>
+                </a>
 
             <div class="video-attribute">
                 <div class="like-comment-share">
-                    <span class="material-symbols-outlined">
-                        arrow_back
-                    </span>
-                    <span class="material-symbols-outlined">
-                        favorite
-                    </span>
-                    <span class="material-symbols-outlined">
-                        comment
-                    </span>
-                    <span class="material-symbols-outlined">
-                        share
-                    </span>
-                    <span class="material-symbols-outlined">
-                        menu_book
-                    </span>
-                    <span class="material-symbols-outlined">
-                        arrow_foRward
-                    </span>
+                    <button class="material-button" id="prev-video">
+                        <span class="material-symbols-outlined">
+                            arrow_back
+                        </span>
+                    </button>
+                    <button class="material-button" id="favorite-button">
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </button>
+                    <button class="material-button" id="comment-button">
+                        <span class="material-symbols-outlined">
+                            comment
+                        </span>
+                    </button>
+                    <button class="material-button" id="share-button">
+                        <span class="material-symbols-outlined">
+                            share
+                        </span>
+                    </button>
+                    <button class="material-button" id="menu-book-button">
+                        <span class="material-symbols-outlined">
+                            menu_book
+                        </span>
+                    </button>
+                    <button class="material-button" id="next-video">
+                        <span class="material-symbols-outlined">
+                            arrow_forward
+                        </span>
+                    </button>
 
                 </div>
                 <div class="description">
-                    <h2> <span class="material-symbols-outlined">
+                    <h2 id="video-title"> <span class="material-symbols-outlined">
                         settings
                     </span> Wayne Henner Vid2 </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero aperiam officiis eius perspiciatis harum, recusandae aspernatur delectus nihil vel quae ea maxime commodi animi quisquam, aliquid, ipsa libero repudiandae nesciunt.</p>
+                    <p id="video-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero aperiam officiis eius perspiciatis harum, recusandae aspernatur delectus nihil vel quae ea maxime commodi animi quisquam, aliquid, ipsa libero repudiandae nesciunt.</p>
                 </div>
             </div>
-            
-            
-
-            
-    
         </div>
+    </div>
+
 </body>
 </html>

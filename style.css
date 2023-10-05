@@ -708,7 +708,7 @@ a {
 
 .video-attribute .like-comment-share {
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 1%;
     color: white;
     display: flex;
@@ -742,4 +742,12 @@ a {
     display: flex;
     flex-direction: column;
     width: 100%
+}
+
+.material-button {
+    background-color: transparent;
+    width: max-content;
+    height: max-content;
+    border: none;
+    cursor: pointer;
 }
