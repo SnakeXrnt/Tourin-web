@@ -11,6 +11,26 @@ create date 2023-10-03 10:12:42
     <title>Tourin web store</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const switchCheckbox = document.getElementById("mySwitch");
+            const switchStatus = document.getElementById("switchStatus");
+
+            // Add an event listener to the checkbox
+            switchCheckbox.addEventListener("change", function() {
+                if (switchCheckbox.checked) {
+                    // Checkbox is checked (switch is ON)
+                    switchStatus.textContent = "Search by keyword";
+                    window.location.href = "region.html"; // Redirect to search.html
+                } else {
+                    // Checkbox is not checked (switch is OFF)
+                    switchStatus.textContent = "Search by region";
+                    window.location.href = "search.html"; // Redirect to region.html
+                }
+            });
+        });
+        
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">

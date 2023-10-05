@@ -241,7 +241,7 @@ body {
 }
   
 .place {
-    min-width: 95%;
+    min-width: 85vw;
     height: max-content;
     background-color: #52d9ff;
     margin: 10px;
