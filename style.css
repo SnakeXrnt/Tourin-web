@@ -1,6 +1,11 @@
 /**
  * @author Ethan Bastian
  * @email ethanbastian11@gmail.com
+ * @create date 2023-10-05 16:51:28
+ */
+/**
+ * @author Ethan Bastian
+ * @email ethanbastian11@gmail.com
  * @create date 2023-10-05 13:29:03
  */
 /**
@@ -591,7 +596,7 @@ body {
 
 .contens-upper .left h1 , h2 , p {
     font-weight: lighter;
-    color: black;
+    color: black !important;
     padding: 0x 0px 0px 0px;
     margin: 0;
     padding-left: 5vw;
@@ -677,3 +682,56 @@ body {
     width: 100vw;
     height: auto;
 }
+
+.mailbox-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video-attribute .profile{
+    position: absolute;
+    top: 7%;
+    left: 2%;
+    color: white;
+  }
+
+.video-attribute .like-comment-share {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-attribute .like-comment-share .material-symbols-outlined {
+    padding-top: 3vh;
+}
+
+.video-attribute .description {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.description h2 {
+    color: white !important ;
+}
+
+.description p {
+    color:#fff!important;
+}
+
